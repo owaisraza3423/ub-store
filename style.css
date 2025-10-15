@@ -1,0 +1,32 @@
+*{
+ padding: 0;
+ margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.first-header{
+    display: flex;
+    justify-content: space-between;
+   margin: 10px;
+}
+.first-navbar{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.second-navbar{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+    margin-right: 5px;
+}
+.first-navbar a{
+text-decoration: none;
+color: black;
+}
+.second-navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
